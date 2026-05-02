@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Comic+Relief:wght@400;700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=New+Rocker&family=Pirata+One&family=Saira+Stencil+One&family=Wallpoet&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Figtree;
+}
+
+
+.div1{
+    background-color: hsl(0, 0%, 100%);
+    width: 450px;
+    height: 600px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 20px;
+}
+
+
+#img1{
+    width: 380px;
+    height: 230px;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    border-radius: 20px;
+}
+
+
+.button1{
+    font-family: Figtree;
+    font-weight: 800;
+    border: none;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 20px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+    height: 40px;
+    width: 110px
+}
+
+
+.paragraph1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: Figtree;
+}
+
+
+.paragraph2{
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 29px;
+    font-family: Figtree;
+    transition: all 0.4s;
+}
+
+
+.paragraph2:hover{
+    color: hsl(47, 88%, 63%);
+    transition: 0.4s;
+}
+
+
+.paragraph3{
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(0, 0%, 42%);
+    font-family: Figtree;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 75px;
+    width: 350px;
+    line-height: 25px;
+}
+
+
+.div2{
+    display: flex;
+    align-items: center;
+}
+
+
+#img2{
+    height: 45px;
+    width: 45px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+.paragraph4{
+    font-size: 16px;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
