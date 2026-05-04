@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Comic+Relief:wght@400;700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Saira+Stencil+One&family=Wallpoet&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 23%, 69%);
+    height: 100vh;
+}
+
+
+div{
+    width: 930px;
+    height: 350px;
+    background-color:hsl(210, 46%, 95%);
+    border-radius: 10px;
+}
+
+
+#img1{
+    width: 350px;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.paragraph1{
+    font-size: 25px;
+    font-family: Manrope;
+    font-weight: 700;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:400px;
+    bottom: 315px;  
+    color: hsl(217, 19%, 35%);   
+}
+
+
+.paragraph2{
+    font-size: 16;
+    font-family: Manrope;
+    font-weight: 600px;
+    width: 450px;
+    height: 75px;
+    position: relative;
+    left: 400px;
+    bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(214, 17%, 51%);
+}
+
+
+#img2{
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    bottom: 280px;
+}
+
+
+.paragraph3{
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Manrope;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 480px;
+    bottom: 360px;
+    color: hsl(217, 19%, 35%);
+}
+
+
+.paragraph4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Manrope;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 430px;
+    bottom: 420px;
+    color: hsl(214, 17%, 51%);
+}
+
+
